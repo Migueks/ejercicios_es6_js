@@ -7,18 +7,18 @@ const game = {
 
 const { title, gender, year } = game;
 
-console.log(title); //Output : "The last us 2"
-console.log(gender); //Output : "[ 'action', 'zombie', 'survival' ]"
-console.log(year); //Output : 2020
+console.log(title);
+console.log(gender);
+console.log(year);
 
 //1.2
 const fruits = ["Banana", "Strawberry", "Orange"];
 
 const [fruit1, fruit2, fruit3] = fruits;
 
-console.log(fruit1); //Output : "Banana"
-console.log(fruit2); //Output : "Strawberry"
-console.log(fruit3); //Output : "Orange"
+console.log(fruit1);
+console.log(fruit2);
+console.log(fruit3);
 
 //1.3
 const animalFunction = () => {
@@ -27,8 +27,8 @@ const animalFunction = () => {
 
 const { name, race } = animalFunction();
 
-console.log(name); //Output : "Bengal Tiger"
-console.log(race); //Output : "Tiger"
+console.log(name);
+console.log(race);
 
 //1.4
 const car = { name2: "Mazda 6", itv: [2015, 2011, 2020] };
@@ -38,7 +38,7 @@ const {
   itv: [year1, year2, year3],
 } = car;
 
-console.log(name2); //Output : "Mazda 6"
-console.log(year1); //Output : 2015
-console.log(year2); //Output : 2011
-console.log(year3); //Output : 2020
+console.log(name2);
+console.log(year1);
+console.log(year2);
+console.log(year3);

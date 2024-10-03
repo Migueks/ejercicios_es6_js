@@ -8,7 +8,7 @@ const users = [
 
 const names = users.map((user) => user.name);
 
-console.log(names); // Output : [ 'Abel', 'Julia', 'Pedro', 'Amanda' ]
+console.log(names);
 
 //3.2
 const users2 = [
@@ -25,7 +25,7 @@ const newNames = users2.map((user2) => {
   return user2.name;
 });
 
-console.log(newNames); // Output = [ 'Anacleto', 'Julia', 'Pedro', 'Anacleto' ]
+console.log(newNames);
 
 //3.3
 const cities = [
@@ -42,4 +42,4 @@ const cityNames = cities.map((city) => {
   return city.name;
 });
 
-console.log(cityNames); //Output : [ 'Tokyo (Visitado)', 'Madagascar', 'Amsterdam (Visitado)', 'Seul' ]
+console.log(cityNames);
